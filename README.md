@@ -85,7 +85,7 @@ grouped
 | Product_009 | 15,167 | 3,250,684.68 |
 | Product_010 | 11,417 | 3,494,797.57 |
 
-## Create a reusable ABC Function
+## 📊 Create a reusable ABC Function
 
 ```python
 def abc_classification(series):
@@ -111,7 +111,7 @@ def abc_classification(series):
 print("Function abc_classification successfully created")
 
 ```
-## ABC Analysis on Sales
+## 📊 ABC Analysis on Sales
 
 ``` python
 
@@ -138,7 +138,7 @@ print(sales_df.sample(10))
 | Product_034 | 7,022 | 1,466,561.46 | C |
 
 
-## ABC on Revenue
+## 📊 ABC on Revenue
 ```python
 revenue_df = grouped.copy()
 revenue_df = revenue_df.sort_values('total_revenue', ascending= False)
@@ -162,7 +162,7 @@ print(revenue_df.sample(10))
 | Product_067 | 14,206 | 3,239,306.65 | A |
 | Product_086 | 14,670 | 5,156,916.86 | A |
 
-## Merge Results
+## 📊 Merge Results
 
 ```python
 # to merge the result for sales 
@@ -193,7 +193,7 @@ print(final_df.sample(10))
 | Product_070 | 11,319 | 1,939,172.88 | A | B | AB |
 
 
-## Visualizations: Count of Product Mix
+## 📊 Visualizations: Count of Product Mix
 
 ``` python
 plt.figure(figsize=(10, 7))
@@ -227,9 +227,9 @@ plt.tight_layout()
 plt.show()
 
 ```
-![](Product Mix Distribution.png)
+![](https://github.com/paragon-tech001/Multi-Criteria-ABC-Analysis/blob/main/Product%20Mix%20Distribution.png)
 
-## Visualization: Revenue by Product Mix
+## 📊 Visualization: Revenue by Product Mix
 
 ```python
 
@@ -274,7 +274,7 @@ plt.show()
 ```
 ![](https://github.com/paragon-tech001/Multi-Criteria-ABC-Analysis/blob/main/Revenue%20by%20Product%20Mix.png)
 
-## Store-Level Analysis
+## 📊 Store-Level Analysis
 
 ```python
 
