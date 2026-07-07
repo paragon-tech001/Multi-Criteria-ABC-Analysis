@@ -272,7 +272,7 @@ plt.tight_layout()
 plt.show()
 
 ```
-![](Revenue byProductMix.png)
+![](https://github.com/paragon-tech001/Multi-Criteria-ABC-Analysis/blob/main/Revenue%20by%20Product%20Mix.png)
 
 ## Store-Level Analysis
 
